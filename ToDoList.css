@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 3px, 10px rgba(rgb(174, 167, 87), rgb(72, 119, 169), rgba(111, 19, 137, 0.046), alpha);
+    border-top:10px solid #9a3e8d;
+    border-bottom: 10px solid #9a3e8d;
+    background-color: #c4aee2;
+    border-radius: 50px;
+
+}
+
+
+.title{
+    text-decoration-color: #9a3e8d;
+    color: #9a3e8d;
+    font-style: italic;
+
+
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.todo__value{
+    background: transparent;
+    border: ;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    flex-grow: 1;
+}
